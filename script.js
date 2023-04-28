@@ -1,5 +1,5 @@
 const gamesContainer = document.querySelector('.savedGamesContainer');
-const baseURL = `http://localhost:4088/api/games`
+const baseURL = `http://ec2-54-183-184-120.us-west-1.compute.amazonaws.com//api/games`
 const saveGameBtn = document.getElementById("save-button");
 let globalId = 1;
 
