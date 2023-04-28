@@ -16,9 +16,21 @@ const {
     deleteGame
 } = require("./controller");
 
+//static files
 app.get("/", function(req, res){
     res.sendFile(path.join(__dirname, "../public/index.html"))
 })
+app.get("/stylesheet", function(req, res){
+    res.sendFile(path.join(__dirname, "../public/styles.css"))
+})
+app.get("/reset", function(req, res){
+    res.sendFile(path.join(__dirname, "../public/reset.css"))
+})
+app.get("/script", function(req, res){
+    res.sendFile(path.join(__dirname, "../public/script.js"))
+})
+
+//api
 app.post(`/api/games`, createGameCard);
 app.get(`/api/games`, getGames);
 app.delete(`/api/games/:id`, deleteGame);
