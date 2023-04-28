@@ -3,7 +3,7 @@ body {
 }
 @font-face {
     font-family: div-one-bold;
-    src: url(DivisionOne-Bold.otf);
+    src: url("/font");
 }
 h1 {
     margin-top: 36px;

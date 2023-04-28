@@ -29,6 +29,9 @@ app.get("/reset", function(req, res){
 app.get("/script", function(req, res){
     res.sendFile(path.join(__dirname, "../public/script.js"))
 })
+app.get("/font", function(req, res){
+    res.sendFile(path.join(__dirname, "../public/DivisionOne-Bold.otf"))
+})
 
 //api
 app.post(`/api/games`, createGameCard);
