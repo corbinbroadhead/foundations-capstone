@@ -1,0 +1,561 @@
+body {
+    background-color: rgb(26, 26, 36);
+}
+@font-face {
+    font-family: div-one-bold;
+    src: url(DivisionOne-Bold.otf);
+}
+h1 {
+    margin-top: 36px;
+    font-family: div-one-bold;
+    font-size: 56px;
+    text-align: center;
+    color: rgb(192, 255, 32);
+}
+h2 {
+    margin-top: 8px;
+    font-family: div-one-bold;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(204, 204, 204);
+}
+.box-1 {
+    height: 175px;
+    width: 1200px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(26, 26, 36);
+    border-radius: 5%;
+}
+.team-cards {
+    position: relative;
+    height: 175px;
+    width: 1200px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(26, 26, 36);
+    border-radius: 5%;
+}
+.Canton img {
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 19px;
+    height: auto;
+    width: 108px;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.Chattanooga img {
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 24px;
+    height: auto;
+    width: 108px;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.LosAngeles img {
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 26px;
+    height: auto;
+    width: 108px;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.Vancouver img {
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 8px;
+    height: auto;
+    width: 108px;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.Chicago img {
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 4px;
+    height: 108px;
+    width: auto;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.Dallas img {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 4px;
+    height: 108px;
+    width: auto;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.NewYork img {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 4px;
+    height: 108px;
+    width: auto;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.Wasatch img {
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 4px;
+    height: 108px;
+    width: auto;
+    object-fit: contain;
+    animation-name: opacityZeroHundred;
+    animation-duration: 3s;
+}
+.Canton {
+    left: 80px;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(124, 40, 61);
+    border-radius: 10%;
+}
+.Canton:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.Chattanooga {
+    left: 210px;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(10, 46, 103);
+    border-radius: 10%;
+}
+.Chattanooga:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.LosAngeles {
+    left: 340px;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(193, 39, 45);
+    border-radius: 10%;
+}
+.LosAngeles:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.Vancouver {
+    left: 470px;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(0, 176, 167);
+    border-radius: 10%;
+}
+.Vancouver:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.Chicago {
+    left: 600px;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(218, 32, 38);
+    border-radius: 10%;
+}
+.Chicago:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.Dallas {
+    left: 730px;
+    position: absolute;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(0, 130, 165);
+    border-radius: 10%;
+}
+.Dallas:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.NewYork {
+    left: 860px;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(239, 161, 67);
+    border-radius: 10%;
+}
+.NewYork:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.Wasatch {
+    left: 990px;
+    position: absolute;
+    height: 116px;
+    width: 116px;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: rgb(226, 242, 13);
+    border-radius: 10%;
+}
+.Wasatch:hover {
+    outline: 5px solid rgb(192, 255, 32);
+}
+.btn-container-1 {
+    height: 10px;
+    width: 100%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    margin-bottom: 34px;
+}
+#sim-button, #back-button, #save-button, #swap-button, #custom-team-button {
+    width: 224px;
+    height: 35px;
+    margin: auto;
+}
+#sim-button:hover, #back-button:hover, #save-button:hover, #swap-button:hover, #custom-team-button:hover {
+    background-color: rgb(26, 26, 36);
+    color:rgb(192, 255, 32);
+}
+#sim-button {
+    background-color: rgb(192, 255, 32);
+    color: rgb(26, 26, 36);
+    border-radius: 10%;
+    font-family: div-one-bold;
+    font-size: 22px;
+    vertical-align: middle;
+}
+#back-button, #save-button, #swap-button, #custom-team-button {
+    background-color: rgb(204, 204, 204);
+    color: rgb(26, 26, 36);
+    border-radius: 10%;
+    font-family: div-one-bold;
+    font-size: 22px;
+    vertical-align: middle;
+}
+.sim-box {
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 266px;
+    width: 1000px;
+}
+.away-logo {
+    position: absolute;
+    left: 88px;
+    top: 4px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.away-logo img {
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 4px;
+    height: 195px;
+    width: 195px;
+    object-fit: contain;
+}
+.home-logo {
+    position: absolute;
+    right: 88px;
+    top: 4px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.home-logo img {
+    position: absolute;
+    margin-right: 22px;
+    margin-top: 4px;
+    height: 195px;
+    width: 195px;
+    object-fit: contain;
+}
+.away-abv {
+    position: absolute;
+    left: 298px;
+    top: 52px;
+    height: 100px;
+    width: 170px;
+    color:rgb(204, 204, 204);
+    text-align: center;
+    font-size: 40px;
+    font-family: div-one-bold;
+}
+.home-abv {
+    position: absolute;
+    right: 298px;
+    top: 52px;
+    height: 100px;
+    width: 170px;
+    color:rgb(204, 204, 204);
+    text-align: center;
+    font-size: 40px;
+    font-family: div-one-bold;
+}
+.away-score {
+    position: absolute;
+    left: 298px;
+    top: 88px;
+    height: 100px;
+    width: 170px;
+    color:rgb(192, 255, 32);
+    text-align: center;
+    font-size: 100px;
+    font-family: div-one-bold;
+    animation-name: scoreAnim;
+    animation-duration: 3s;
+}
+.home-score {
+    position: absolute;
+    right: 298px;
+    top: 88px;
+    height: 100px;
+    width: 170px;
+    color:rgb(192, 255, 32);
+    text-align: center;
+    font-size: 100px;
+    font-family: div-one-bold;
+    animation-name: scoreAnim;
+    animation-duration: 3s;
+}
+.final-indicator {
+    position: absolute;
+    left: 422px;
+    top: 184px;
+    height: 50px;
+    width: 150px;
+    color: rgb(204, 204, 204);
+    font-family: div-one-bold;
+    font-size: 32px;
+    text-align: center;
+}
+#away-minus-btn {
+    position: absolute;
+    left: 128px;
+    top: 222px;
+    width: 90; 
+    height: 102; 
+    font-family: div-one-bold;
+    font-size: 24px;;
+    color:rgb(26, 26, 36);
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    text-align: center;
+}
+#away-minus-btn:hover {
+    background-color: rgb(192, 255, 32);
+}
+#away-add-btn {
+    position: absolute;
+    left: 218px;
+    top: 222px;
+    width: 90; 
+    height: 102; 
+    font-family: div-one-bold;
+    font-size: 24px;;
+    color:rgb(26, 26, 36);
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    text-align: center;
+}
+#away-add-btn:hover {
+    background-color: rgb(192, 255, 32);
+}
+.away-rating {
+    position: absolute;
+    left: 162px;
+    top: 220px;
+    width: 76px;
+    height: 44px;
+    color:rgb(204, 204, 204);
+    font-family: div-one-bold;
+    font-size: 40px;
+}
+#home-minus-btn {
+    position: absolute;
+    right: 218px;
+    top: 222px;
+    width: 90; 
+    height: 102; 
+    font-family: div-one-bold;
+    font-size: 24px;;
+    color:rgb(26, 26, 36);
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    text-align: center;
+}
+#home-minus-btn:hover {
+    background-color: rgb(192, 255, 32);
+}
+#home-add-btn {
+    position: absolute;
+    right: 128px;
+    top: 222px;
+    width: 90; 
+    height: 102; 
+    font-family: div-one-bold;
+    font-size: 24px;;
+    color:rgb(26, 26, 36);
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    text-align: center;
+}
+#home-add-btn:hover {
+    background-color: rgb(192, 255, 32);
+}
+.home-rating {
+    position: absolute;
+    right: 132px;
+    top: 220px;
+    width: 76px;
+    height: 44px;
+    color:rgb(204, 204, 204);
+    font-family: div-one-bold;
+    font-size: 40px;
+}
+.savedGamesContainer {
+    height: 300px;
+    width: 1200px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+}
+.savedGame {
+    position: relative;
+    height: 80px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color:rgb(44, 44, 60);
+}
+.savedGame:hover {
+    position: relative;
+    height: 80px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgb(245, 71, 77);
+}
+.awayTeam {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-family: div-one-bold;
+    font-size: 20px;
+    color:rgb(192, 255, 32);
+}
+.homeTeam {
+    position: absolute;
+    left: 6px;
+    top: 32px;
+    font-family: div-one-bold;
+    font-size: 20px;
+    color:rgb(192, 255, 32);
+}
+.awayTeamScore {
+    position: absolute;
+    text-align: right;
+    right: 6px;
+    top: 6px;
+    font-family: div-one-bold;
+    font-size: 20px;
+    color:rgb(204, 204, 204);
+}
+.homeTeamScore {
+    position: absolute;
+    text-align: right;
+    right: 6px;
+    top: 32px;
+    font-family: div-one-bold;
+    font-size: 20px;
+    color:rgb(204, 204, 204);
+}
+.final-score {
+    position: absolute;
+    text-align: right;
+    right: 27px;
+    top: 58px;
+    font-family: div-one-bold;
+    font-size: 16px;
+    color:rgb(173, 173, 173);
+}
+@keyframes scoreAnim {
+    from {color: rgb(26, 26, 36)}
+    to {color: rgb(192, 255, 32)}
+}
+@keyframes cantonAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(124, 40, 61)}
+} 
+@keyframes chattanoogaAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(10, 46, 103)}
+}
+@keyframes losAngelesAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(193, 39, 45)}
+}
+@keyframes vancouverAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(0, 176, 167)}
+}
+@keyframes chicagoAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(218, 32, 38)}
+}
+@keyframes dallasAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(0, 130, 165)}
+}
+@keyframes newYorkAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(239, 161, 67)}
+}
+@keyframes wasatchAnim {
+    from {background-color: rgb(26, 26, 36)}
+    to {background-color: rgb(226, 242, 13)}
+}
+@keyframes opacityZeroHundred {
+    from {opacity: 0%}
+    to {opacity: 100%}
+}

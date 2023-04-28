@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Simulation!</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>BASKETBALL GAME SIMULATOR</h1>
+    <h2 id="subheading">SELECT THE HOME TEAM</h2>
+    <section>
+        <div class="box-1">
+            <div class="team-cards">
+                <span class="Canton"><img src="images/CantonCharge.png"></span>
+                <span class="Chattanooga"><img src="images/ChattanoogaChads.png"></span>
+                <span class="LosAngeles"><img src="images/LosAngelesPredators.png"></span>
+                <span class="Vancouver"><img src="images/VancouverWeekly.png"></span>
+                <span class="Chicago"><img src="images/ChicagoGrays.png"></span>
+                <span class="Dallas"><img src="images/DallasGoldenNuks.png"></span>
+                <span class="NewYork"><img src="images/NewYorkKnights.png"></span>
+                <span class="Wasatch"><img src="images/WasatchBoogeymen.png"></span>
+            </div>
+        </div>
+    </section>
+    <main>
+    <section>
+        <div class="sim-box">
+            <div class="away-team-container">
+                <div class="away-logo"><img id="away-logo" src="images/AwayTeam.png"></div>
+                <div id="aab" class="away-abv">TBD</div>
+                <mark>
+                <div id="asc" class="away-score">0</div>
+                </mark>
+                <button id="away-minus-btn">-</button>
+                <div id="ara" class="away-rating">80</div>
+                <button id="away-add-btn">+</button>
+            </div>
+            <div id="game-status" class="final-indicator">PREGAME</div>
+            <div class="home-team-container">
+                <div class="home-logo"><img id="home-logo" src="images/HomeTeam.png"></div>
+                <div id="hab" class="home-abv">TBD</div>
+                <mark>
+                <div id="hsc" class="home-score">0</div>
+                </mark>
+                <button id="home-minus-btn">-</button>
+                <div id="hra" class="home-rating">80</div>
+                <button id="home-add-btn">+</button>
+            </div>
+        </div>
+        <div class="btn-container-1">
+            <button id="sim-button">SIM!</button>
+        </div>
+        <div class="btn-container-1">
+            <button id="back-button">GO BACK</button>
+        </div>
+        <div class="btn-container-1">
+            <button id="save-button">SAVE GAME</button>
+        </div>
+        <div class="btn-container-1">
+            <button id="swap-button">SWAP TEAMS</button>
+        </div>
+    </main>
+        <section class="savedGamesContainer">
+        </section>
+    </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
