@@ -1,5 +1,5 @@
 const games = require('./db.json')
-let globalId = 2
+let globalId = 1
 
 module.exports = {
     createGameCard: (req, res) => {
