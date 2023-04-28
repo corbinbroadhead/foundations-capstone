@@ -71,13 +71,13 @@ const assignTeamDal = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="DAL";
         document.getElementById("home-logo")
-        .src="images/DallasGoldenNuks.png";
+        .src="/DallasGoldenNuks.png";
         document.getElementById("hra").textContent="94";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="DAL";
         document.getElementById("away-logo")
-        .src="images/DallasGoldenNuks.png";
+        .src="/DallasGoldenNuks.png";
         document.getElementById("ara").textContent="92";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -88,13 +88,13 @@ const assignTeamChi = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="CHI";
         document.getElementById("home-logo")
-        .src="images/ChicagoGrays.png";
+        .src="/ChicagoGrays.png";
         document.getElementById("hra").textContent="83";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="CHI";
         document.getElementById("away-logo")
-        .src="images/ChicagoGrays.png";
+        .src="/ChicagoGrays.png";
         document.getElementById("ara").textContent="81";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -105,13 +105,13 @@ const assignTeamWas = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="WAS";
         document.getElementById("home-logo")
-        .src="images/WasatchBoogeymen.png";
+        .src="/WasatchBoogeymen.png";
         document.getElementById("hra").textContent="82";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="WAS";
         document.getElementById("away-logo")
-        .src="images/WasatchBoogeymen.png";
+        .src="/WasatchBoogeymen.png";
         document.getElementById("ara").textContent="80";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -122,13 +122,13 @@ const assignTeamNy = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="NYK";
         document.getElementById("home-logo")
-        .src="images/NewYorkKnights.png";
+        .src="/NewYorkKnights.png";
         document.getElementById("hra").textContent="86";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="NYK";
         document.getElementById("away-logo")
-        .src="images/NewYorkKnights.png";
+        .src="/NewYorkKnights.png";
         document.getElementById("ara").textContent="84";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -139,13 +139,13 @@ const assignTeamCan = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="CAN";
         document.getElementById("home-logo")
-        .src="images/CantonCharge.png";
+        .src="/CantonCharge.png";
         document.getElementById("hra").textContent="82";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="CAN";
         document.getElementById("away-logo")
-        .src="images/CantonCharge.png";
+        .src="/CantonCharge.png";
         document.getElementById("ara").textContent="80";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -156,13 +156,13 @@ const assignTeamCha = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="CHA";
         document.getElementById("home-logo")
-        .src="images/ChattanoogaChads.png";
+        .src="/ChattanoogaChads.png";
         document.getElementById("hra").textContent="87";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="CHA";
         document.getElementById("away-logo")
-        .src="images/ChattanoogaChads.png";
+        .src="/ChattanoogaChads.png";
         document.getElementById("ara").textContent="85";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -173,13 +173,13 @@ const assignTeamLa = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="LA";
         document.getElementById("home-logo")
-        .src="images/LosAngelesPredators.png";
+        .src="/LosAngelesPredators.png";
         document.getElementById("hra").textContent="79";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="LA";
         document.getElementById("away-logo")
-        .src="images/LosAngelesPredators.png";
+        .src="/LosAngelesPredators.png";
         document.getElementById("ara").textContent="77";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -190,13 +190,13 @@ const assignTeamVan = (event) => {
     if (document.getElementById("hab").textContent === "TBD") {
         document.getElementById("hab").textContent="VAN";
         document.getElementById("home-logo")
-        .src="images/VancouverWeekly.png";
+        .src="/VancouverWeekly.png";
         document.getElementById("hra").textContent="84";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("aab").textContent="VAN";
         document.getElementById("away-logo")
-        .src="images/VancouverWeekly.png";
+        .src="/VancouverWeekly.png";
         document.getElementById("ara").textContent="82";
         document.getElementById("subheading").textContent='PRESS "SIM!" TO SIMULATE';
     }
@@ -211,13 +211,13 @@ const goBack = (event) => {
     } else if (document.getElementById("aab").textContent !== "TBD") {
         document.getElementById("aab").textContent="TBD";
         document.getElementById("away-logo")
-        .src="images/AwayTeam.png";
+        .src="/AwayTeam.png";
         document.getElementById("ara").textContent="80";
         document.getElementById("subheading").textContent="SELECT THE AWAY TEAM";
     } else {
         document.getElementById("hab").textContent="TBD";
         document.getElementById("home-logo")
-        .src="images/HomeTeam.png";
+        .src="/HomeTeam.png";
         document.getElementById("hra").textContent="80";
         document.getElementById("subheading").textContent="SELECT THE HOME TEAM";
     }
