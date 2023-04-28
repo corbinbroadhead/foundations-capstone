@@ -13,9 +13,10 @@ const {
     getGames,
     deleteGame
 } = require("./controller");
-// app.get("/", function(req, res){
-//     res.sendFile(path.join(__dirname, "../public/index.html"))
-// })
+
+app.get("/", function(req, res){
+    res.sendFile(path.join(__dirname, "../public/index.html"))
+})
 app.post(`/api/games`, createGameCard);
 app.get(`/api/games`, getGames);
 app.delete(`/api/games/:id`, deleteGame);
